@@ -21,6 +21,7 @@ app.register(fastifyJwt, {
 })
 
 app.register(fastifyCookie)
+console.log('isso é um teste');
 
 app.register(userRoutes)
 app.register(gymRoutes)
